@@ -34,14 +34,18 @@ doSomething();
 
 ## Change log
 
-### 0.9.0
+### 1.0.2
 
-- Pushed: first version
+- Pushed: modified exports to work correctly.
+
+### 1.0.1
+
+- Pushed: changed code examples.
 
 ### 1.0.0
 
 - Pushed: relocated file, fixed bug, this can be 1.0.
 
-### 1.0.1
+### 0.9.0
 
-- Pushed: changed code examples.
+- Pushed: first version
