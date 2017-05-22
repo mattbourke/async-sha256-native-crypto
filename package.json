@@ -1,6 +1,6 @@
 {
   "name": "async-sha256",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "async sha256 function, using native crypto",
   "main": "index.js",
   "scripts": {
