@@ -37,3 +37,7 @@ doSomething();
 ### 0.9.0
 
 - Pushed: first version
+
+### 1.0.0
+
+- Pushed: relocated file, fixed bug, this can be 1.0.
