@@ -12,21 +12,21 @@ npm install --save async-sha256
 ## Usage
 
 ```js
-import sha256 from './async-sha256';
+import sha256 from 'async-sha256';
 
-sha256('matt').then(function(hash){
-  console.log(hash);
+sha256('matt').then(function(hash) {
+console.log(hash);//eslint-disable-line
 });
 ```
 
 #### Or:
 
 ```js
-import sha256 from './async-sha256';
+import sha256 from 'async-sha256';
 
 async function doSomething() {
-  let hash = await sha256('matt');
-	console.log(hash);
+  const hash = await sha256('matt');
+  console.log(hash);//eslint-disable-line
 }
 doSomething();
 
@@ -41,3 +41,7 @@ doSomething();
 ### 1.0.0
 
 - Pushed: relocated file, fixed bug, this can be 1.0.
+
+### 1.0.1
+
+- Pushed: changed code examples.
