@@ -1,0 +1,25 @@
+{
+  "name": "async-sha256",
+  "version": "1.0.0",
+  "description": "async sha256 function, using native crypto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mattbourke/async-sha256-native-crypto.git"
+  },
+  "keywords": [
+    "async",
+    "sha256",
+    "native",
+    "crypto"
+  ],
+  "author": "matt bourke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattbourke/async-sha256-native-crypto/issues"
+  },
+  "homepage": "https://github.com/mattbourke/async-sha256-native-crypto#readme"
+}
