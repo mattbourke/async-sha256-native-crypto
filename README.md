@@ -3,6 +3,9 @@
 This package contains a async sha256 function using the native crypto API.
 Calling this function with an 'await' requires the code to be within a async block, see the below examples.
 
+## Note:
+This requires a modern browser that supports native crypto.
+
 ## Installation
 
 ```bash
@@ -33,6 +36,10 @@ doSomething();
 ```
 
 ## Change log
+
+### 1.0.3
+
+- Pushed: updated read me to include instructions noting that this currently only works in modern browsers and not node.
 
 ### 1.0.2
 
